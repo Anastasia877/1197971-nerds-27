@@ -26,8 +26,42 @@
   </header>
   <main>
     <h1>Магазин готовых шаблонов</h1>
-    <h2>СОРТИРОВКА</h2>
-    <h3>СОРТИРОВАТЬ:</h3>
+    <aside>
+      <h2>Фильтрация</h2>
+      <form action="" method="post">
+      <h3>Стоимость:</h3>
+      <div class="line-bg">
+        <button><img src="#" alt="Назад"></button>
+        <span></span>
+        <button><img src="#" alt="Вперед"></button>
+      </div>
+        <h3>Сетка:</h3>
+        <label>
+          <input type="radio" name="option" value="Адаптивная"> Адаптивная
+          <input type="radio" name="option" value="Фиксированная"> Фиксированная
+          <input type="radio" name="option" value="Резиновая"> Резиновая
+        </label>
+        <h3>Оcобенности:</h3>
+        <label>
+          <input type="checkbox" name="slider">Слайдер
+        </label>
+        <label>
+          <input type="checkbox" name="advantages">Блок преимуществ
+        </label>
+        <label>
+          <input type="checkbox" name="news">Новости
+        </label>
+        <label>
+          <input type="checkbox" name="gallery">Галерея
+        </label>
+        <label>
+          <input type="checkbox" name="basket">Корзина
+        </label>
+      <button type="submit">Показать</button>
+      </form>
+    </aside>
+    <h2>Сортировка</h2>
+    <p>Сортировать:</p>
     <ul>
       <li><a href="#">По цене</a></li>
       <li><a href="#">По типу</a></li>
@@ -39,33 +73,6 @@
     <button>
       <span>Oт меньшего к большему</span>
     </button>
-    <form action="" method="post">
-      <h2 >Сетка:</h2>
-      <label>
-        <input type="radio" name="option" value="Адаптивная"> Адаптивная
-        <input type="radio" name="option" value="Фиксированная"> Фиксированная
-        <input type="radio" name="option" value="Резиновая"> Резиновая
-      </label>
-    </form>
-    <form action="" method="post">
-      <h2>Оcобенности:</h2>
-      <label>
-        <input type="checkbox" name="slider">Слайдер
-      </label>
-      <label>
-        <input type="checkbox" name="advantages">Блок преимуществ
-      </label>
-      <label>
-        <input type="checkbox" name="news">Новости
-      </label>
-      <label>
-        <input type="checkbox" name="gallery">Галерея
-      </label>
-      <label>
-        <input type="checkbox" name="basket">Корзина
-      </label>
-    </form>
-    <button type="submit">ПОКАЗАТЬ</button>
   </main>
   <section>
     <ul>
